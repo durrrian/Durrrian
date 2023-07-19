@@ -36,12 +36,12 @@ const uncutSans = localFont({
     },
 
     {
-      path: './Webfonts/UncutSans-SemiBold.woff2',
+      path: './Webfonts/UncutSans-Semibold.woff2',
       weight: '600',
       style: 'normal',
     },
     {
-      path: './Webfonts/UncutSans-SemiBoldItalic.woff2',
+      path: './Webfonts/UncutSans-SemiboldItalic.woff2',
       weight: '600',
       style: 'italic',
     },
