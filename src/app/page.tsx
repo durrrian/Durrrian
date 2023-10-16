@@ -27,6 +27,7 @@ export default function Page() {
 
         <section className='space-y-2'>
           <p className='text-sm'>Awesome landing page is coming soon.</p>
+          <p>Registered and operated in Indonesia under the legal name of PT KUDOKU FINANSIAL INDONESIA</p>
           <a className='block underline text-blue-500' href='/terms' target='_blank'>
             Read our Terms of Service.
           </a>
