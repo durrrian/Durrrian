@@ -1,20 +1,16 @@
-import './globals.css';
-import uncutSans from '@/utils/font/uncutSans';
-import meta from './meta';
-import { DarkModeProvider } from '@/context/DarkMode';
+import './globals.css'
+import uncutSans from '@/utils/font/uncutSans'
+import meta from './meta'
+import { DarkModeProvider } from '@/context/DarkMode'
 
-export const metadata = meta;
+export const metadata = meta
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <DarkModeProvider>
-      <html lang="en" suppressHydrationWarning>
+      <html lang='en' suppressHydrationWarning>
         <body className={uncutSans.className}>{children}</body>
       </html>
     </DarkModeProvider>
-  );
+  )
 }

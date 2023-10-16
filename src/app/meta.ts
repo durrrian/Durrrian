@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+import type { Metadata } from 'next'
 
 const meta: Metadata = {
   metadataBase: new URL('https://durrrian.com'),
@@ -54,6 +54,6 @@ const meta: Metadata = {
       url: '/180x180.png',
     },
   },
-};
+}
 
-export default meta;
+export default meta
