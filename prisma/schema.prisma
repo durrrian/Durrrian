@@ -1,0 +1,27 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model ContactCard {
+  id                              String                  @id @default(auto()) @map("_id") @db.ObjectId
+  username                        String                  @unique
+  firstName                       String
+  middleName                      String?
+  lastName                        String
+  photoUrl                        String?
+  workPhone                       String
+  title                           String
+  nickname                        String?
+  gender                          Gender
+  workEmail                       String
+}
+
+enum Gender {
+  M
+  F
+}

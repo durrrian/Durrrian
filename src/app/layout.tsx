@@ -1,5 +1,5 @@
 import './globals.css'
-import uncutSans from '@/utils/font/uncutSans'
+import uncutSans from '@/font/uncutSans'
 import meta from './meta'
 import { DarkModeProvider } from '@/context/DarkMode'
 
