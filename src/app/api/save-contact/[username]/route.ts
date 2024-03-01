@@ -44,8 +44,8 @@ export async function GET(_request: Request, { params }: { params: { username: s
   return new Response(vCard.getFormattedString(), {
     status: 200,
     headers: {
-      'Content-Type': 'text/vcard; name="enesser.vcf"',
-      'Content-Disposition': 'inline; filename="enesser.vcf"',
+      'Content-Type': `text/vcard; name="${user.username}.vcf"`,
+      'Content-Disposition': `inline; filename="${user.username}.vcf"`,
     },
   })
 }
