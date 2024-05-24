@@ -30,6 +30,13 @@ export default function Page() {
 
         <CalComButton />
 
+        <p>
+          or Contact us via{' '}
+          <a className='block underline text-blue-500' href='https://wa.me/6287788405014' target='_blank'>
+            WhatsApp
+          </a>
+        </p>
+
         <section className='space-y-2'>
           <p className='text-sm'>Awesome landing page is coming soon.</p>
           <p>Registered and operated in Indonesia under the legal name of PT KUDOKU FINANSIAL INDONESIA</p>
@@ -39,7 +46,15 @@ export default function Page() {
           <a className='block underline text-blue-500' href='/privacy' target='_blank'>
             Read our Privacy Policy.
           </a>
+          <a className='block underline text-blue-500' href='/refund-policy' target='_blank'>
+            Read our Return & Refund Policy.
+          </a>
         </section>
+
+        <p>
+          Bellezza BSA 1st Floor Unit 106, Jl. Letjen Soepeno, RT/RW:** 004/002, Grogol Utara, Kebayoran Lama, Jakarta
+          Selatan, DKI Jakarta, 12210
+        </p>
       </section>
     </main>
   )
